@@ -1,0 +1,11 @@
+dataset_name: year_prediction_msd
+dataset_display_name: 'Year prediction MSD'
+dataset_type: 'YearPredictionMSD'
+save_dir: datasets
+num_workers: 8
+batch_size: 128000
+layer_sizes: !!python/tuple [100, 100]
+lr: 0.001
+num_epochs: 1000
+weight_decay: 0.01
+max_rows: 500

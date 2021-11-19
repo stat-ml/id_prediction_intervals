@@ -1,0 +1,12 @@
+dataset_name: protein_structure
+dataset_display_name: 'Protein structure'
+dataset_type: 'ProteinStructure'
+openml_id: 42903
+save_dir: datasets
+num_workers: 8
+batch_size: 512
+layer_sizes: !!python/tuple [50, 50]
+lr: 0.001
+num_epochs: 1000
+weight_decay: 0.01
+max_rows: 500

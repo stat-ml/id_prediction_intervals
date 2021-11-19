@@ -1,0 +1,12 @@
+dataset_name: sgemm_gpu
+dataset_display_name: 'SGEMM GPU'
+dataset_type: 'SGEMMGPU'
+save_dir: datasets
+num_workers: 8
+batch_size: 32000
+layer_sizes: !!python/tuple [50, 50]
+lr: 0.01
+num_epochs: 1000
+weight_decay: 0.01
+max_rows: 500
+save_interval: 10000

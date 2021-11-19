@@ -1,0 +1,12 @@
+dataset_name: superconduct
+dataset_display_name: 'Superconduct'
+dataset_type: 'Superconduct'
+save_dir: datasets
+num_workers: 8
+batch_size: 1024
+layer_sizes: !!python/tuple [50, 50]
+lr: 0.001
+num_epochs: 1000
+weight_decay: 0.01
+max_rows: 500
+save_interval: 2000

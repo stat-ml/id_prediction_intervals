@@ -17,6 +17,8 @@ def numel(m: torch.nn.Module, only_trainable: bool = True):
     returns the total number of parameters used by `m` (only counting
     shared parameters once); if `only_trainable` is True, then only
     includes parameters with `requires_grad = True`
+
+    Source: https://stackoverflow.com/questions/49201236/check-the-total-number-of-parameters-in-a-pytorch-model
     """
     parameters = m.parameters()
     if only_trainable:
